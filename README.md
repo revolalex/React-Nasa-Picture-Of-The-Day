@@ -2,12 +2,22 @@
 # Project Name : Nasa Picture Of The Day
 > This project's main goal was to try React, and Nasa API 
 
+## Table of contents
+* [Screenshot](#screenshot)
+* [Components](#components)
+* [Router](#react-router-magic)
+* [NasaPhoto](#nasaphoto-component)
+* [Handling the media type](#handling-the-media-type)
+* [What I learn pratice](#what-i-learn)
+* [Script](#available-scripts)
+* [Contact](#contact)
+
 
 ### Screenshot
 <br>
 <img width="300" src="https://user-images.githubusercontent.com/56839789/94368295-9b6b2a80-00e3-11eb-96cb-25d82af6bae5.gif" alt="screenshot">
 
-### Creating the React App
+### Creating-the-React-App
 `npx create-react-app nasa-apod`
 <br />
 The npx command will install and run the command create-react-app
@@ -30,7 +40,7 @@ For the react-router-dom dependency, we pulled out BrowserRouter and Route for o
 BrowserRouter will wrap around our declared routes.
 Route will help us build out our routes, what component the route will show, and how the URL route will look.
 
-### NasaPhoto.js
+### NasaPhoto component
 We are using React Hooks so we see that for state, we have set it to null and later we set setPhotoData to the data we pull out of the API.
 
 In the return() we are using photoData to use each element of the API in an organized way. We are using:
@@ -42,6 +52,15 @@ In the return() we are using photoData to use each element of the API in an orga
 
 ### Handling the media type
 The API sometimes sends back a short video. So we want to be able to display that properly. If the media type is "image", we will return it as an image. If not, we will return the "image/video" in an <iframe />.
+
+### What I learn
+- create a React App
+- react-router-dom
+- set navbar in react
+- router
+- components
+- fetch nasa api
+- use .env variable (example fo APIkey)
 
 
 ## Available Scripts
@@ -81,14 +100,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### What I learn, pratice:
-- create a React App
-- react-router-dom
-- set navbar in react
-- router
-- components
-- fetch nasa api
-- use .env variable (example fo APIkey)
+## Status
+Project is:  _finished_
+
+
+## Contact	
+- [![LinkedIn][linkedin-shield]][linkedin-url] 	
+- revolalex@gmail.com
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/alexandre-rodrigueza/
+
 
 
 
