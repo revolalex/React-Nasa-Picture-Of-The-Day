@@ -7,6 +7,42 @@
 <br>
 <img width="300" src="https://user-images.githubusercontent.com/56839789/94368295-9b6b2a80-00e3-11eb-96cb-25d82af6bae5.gif" alt="screenshot">
 
+### Creating the React App
+`npx create-react-app nasa-apod`
+<br />
+The npx command will install and run the command create-react-app
+The last part of that command is the name of our app.
+<br>
+Then: `cd nasa-apod` And: `npm start`, Finally: head on over to `localhost:3000`
+
+### Components:
+- /Home.js
+- /NasaPhoto.js
+- /NavBar.js
+
+### React Router Magic!
+`npm install --save react-router-dom`
+<br>
+In here we see that we have imported the react-router-dom, our /Home and /NasaPhoto components, and set up the routing for that.
+
+For the react-router-dom dependency, we pulled out BrowserRouter and Route for our routing.
+
+BrowserRouter will wrap around our declared routes.
+Route will help us build out our routes, what component the route will show, and how the URL route will look.
+
+### NasaPhoto.js
+We are using React Hooks so we see that for state, we have set it to null and later we set setPhotoData to the data we pull out of the API.
+
+In the return() we are using photoData to use each element of the API in an organized way. We are using:
+
+- Photo URL - That is the photo itself.
+- Photo Title - That will be used as our alt for the photo and the h1 on our page.
+- Photo Date - This will be the current date because this API is the Astronomy Picture of the Day.
+- Photo Explanation - This will be a paragraph of information that NASA provides about the photo.
+
+### Handling the media type
+The API sometimes sends back a short video. So we want to be able to display that properly. If the media type is "image", we will return it as an image. If not, we will return the "image/video" in an <iframe />.
+
 
 ## Available Scripts
 
