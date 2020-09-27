@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/made%20with-React-blue?logo=react).
+![](https://img.shields.io/badge/made%20with-node.js-success?logo=node.js).
 
 # Project Name : Nasa Picture Of The Day
 > This project's main goal was to try React, and Nasa API 
