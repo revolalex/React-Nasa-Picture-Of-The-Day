@@ -1,6 +1,9 @@
 ![](https://img.shields.io/badge/made%20with-React-blue?logo=react).
 ![](https://img.shields.io/badge/made%20with-node.js-success?logo=node.js).
 
+
+<img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Frevolalex%2FReact-Nasa-Picture-Of-The-Day" alt="Hits">.
+
 # Project Name : Nasa Picture Of The Day
 > This project's main goal was to try React, and Nasa API 
 
